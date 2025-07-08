@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CognifyMetrics - Daniel Nguyen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project-detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="glass" id="navbar">
+            <div class="container">
+                <div class="logo">DN</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#content">Content</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Project Banner -->
+        <section class="project-banner">
+            <div class="banner-placeholder">
+                <!-- Banner image will be added later -->
+                <div class="banner-content">
+                    <h1>CognifyMetrics</h1>
+                    <p class="project-tagline">AI-powered B2B market intelligence platform</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details -->
+        <section class="project-details">
+            <div class="container">
+                <div class="project-nav glass">
+                    <a href="#overview" class="project-nav-link">Overview</a>
+                    <a href="#responsibilities" class="project-nav-link">Responsibilities</a>
+                    <a href="#achievements" class="project-nav-link">Achievements</a>
+                    <a href="#tech-stack" class="project-nav-link">Tech Stack</a>
+                </div>
+
+                <div id="overview" class="project-section glass card hover-lift animate-apple-fade-in">
+                    <h2>Project Overview</h2>
+                    <p>Cognify Metrics is an AI-powered B2B market intelligence platform designed specifically for e-commerce businesses. It transforms weeks of manual market research into minutes of AI-powered insights, addressing the critical pain point that 80% of e-commerce businesses struggle with time-intensive, manual trend analysis.</p>
+                    
+                    <div class="project-link">
+                        <a href="https://cognifymetrics.com" target="_blank" class="btn btn-primary hover-lift">
+                            <i class="fas fa-external-link-alt"></i>
+                            Visit Project Website
+                        </a>
+                    </div>
+                    <br>
+                    
+                    <h3>Target Market & Results</h3>
+                    <ul class="target-market">
+                        <li>
+                            <div class="target-market-item">
+                                <span class="target-label">Primary</span>
+                                <p>SME E-commerce businesses experiencing 45% increase in organic traffic and 60% reduction in research time</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="target-market-item">
+                                <span class="target-label">Secondary</span>
+                                <p>Digital marketing agencies achieving 3x client capacity increase</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="target-market-item">
+                                <span class="target-label">Tertiary</span>
+                                <p>Product development teams gaining 3-month competitive advantage</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="responsibilities" class="project-section glass card hover-lift animate-apple-fade-in">
+                    <h2>Key Responsibilities</h2>
+                    
+                    <div class="responsibility-item">
+                        <h3>Business Strategy & Leadership</h3>
+                        <ul>
+                            <li>Developed overall business vision and growth strategy</li>
+                            <li>Led team across different development phases</li>
+                            <li>Established product roadmap and key milestones</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="responsibility-item">
+                        <h3>Backend Architecture Design</h3>
+                        <ul>
+                            <li>Designed and implemented the core architecture for Cognify Metrics</li>
+                            <li>Established modular structure with clear separation of concerns across presentation, business logic, and data layers</li>
+                            <li>Created dependency injection patterns for maintainable, testable code</li>
+                            <li>Implemented MongoDB schema design with Mongoose integration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="responsibility-item">
+                        <h3>AI Integration Engineering</h3>
+                        <ul>
+                            <li>Built AI model selection logic for optimal performance across different analysis types</li>
+                            <li>Created system prompts for specialized keyword analysis and market insights</li>
+                            <li>Developed data processing pipelines for training and inference</li>
+                            <li>Implemented caching strategies for improved performance and cost efficiency</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="achievements" class="project-section glass card hover-lift animate-apple-fade-in">
+                    <h2>Achievements</h2>
+                    
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Client Performance Improvements</h3>
+                            <ul>
+                                <li>Delivered core API functionality enabling 45% increase in organic traffic for clients</li>
+                                <li>Reduced market research time by 60% through AI-powered automation</li>
+                                <li>Enabled 3x faster trend identification compared to manual methods</li>
+                                <li>Supported 85% weekly active users in beta cohort with stable, reliable API</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Performance Optimization</h3>
+                            <ul>
+                                <li>Designed horizontally scalable microservices architecture</li>
+                                <li>Implemented stateless service design for container deployment</li>
+                                <li>Created database indexing strategy for performance at scale</li>
+                                <li>Optimized API endpoints for sub-100ms response times</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>Security Implementation</h3>
+                            <ul>
+                                <li>Established comprehensive authentication and authorization system</li>
+                                <li>Implemented data encryption for sensitive information</li>
+                                <li>Created role-based access control for enterprise features</li>
+                                <li>Designed secure API key management for third-party integrations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tech-stack" class="project-section glass card hover-lift animate-apple-fade-in">
+                    <h2>Tech Stack</h2>
+                    <div class="tech-stack-grid">
+                        <div class="tech-stack-item">
+                            <div class="tech-icon"><i class="fas fa-database"></i></div>
+                            <div class="tech-name">MongoDB</div>
+                        </div>
+                        <div class="tech-stack-item">
+                            <div class="tech-icon"><i class="fab fa-node-js"></i></div>
+                            <div class="tech-name">Node.js</div>
+                        </div>
+                        <div class="tech-stack-item">
+                            <div class="tech-icon"><i class="fas fa-brain"></i></div>
+                            <div class="tech-name">AI Models</div>
+                        </div>
+                        <div class="tech-stack-item">
+                            <div class="tech-icon"><i class="fab fa-react"></i></div>
+                            <div class="tech-name">React</div>
+                        </div>
+                        <div class="tech-stack-item">
+                            <div class="tech-icon"><i class="fas fa-cloud"></i></div>
+                            <div class="tech-name">AWS</div>
+                        </div>
+                        <div class="tech-stack-item">
+                            <div class="tech-icon"><i class="fas fa-server"></i></div>
+                            <div class="tech-name">Docker</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="back-to-projects">
+                    <a href="index.html#projects" class="btn btn-primary hover-lift">
+                        <i class="fas fa-arrow-left"></i>
+                        Back to Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">DN</div>
+                <p>&copy; 2025 Daniel Nguyen. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/tân-nguyễn-văn-35167b1a5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/doctor-blue" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/c/DevComentry" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html> 
